@@ -1,0 +1,4 @@
+# Linguist treats examples/ as documentation by default. Count the runnable source files.
+examples/oa-approval/java/*.java -linguist-documentation
+examples/oa-approval/vue/src/*.vue -linguist-documentation
+examples/oa-approval/vue/src/*.ts -linguist-documentation

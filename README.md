@@ -8,7 +8,7 @@
 
 适合希望把日常管理搬进同一套系统的企业。商贸企业可串起销售、采购、库存与财务，生产企业可管理工单、批次和成品入库。企业完成部署并配置业务角色后，管理者和员工可通过 PC 或手机浏览器办理已启用的业务。企业开发团队、独立开发者和学习者也可在授权范围内复用或修改源码。
 
-[企业目标演示](docs/页面图集.md#企业目标从公司拆到个人) · [OA 系统选型](#开源-oa-系统选型) · [完整功能清单](docs/功能清单.md) · [PC 和 H5 页面图集](docs/页面图集.md) · [技术栈](#技术栈与运行环境) · [授权与交付](docs/交付与授权.md) · [微信咨询](#微信咨询)
+[企业目标演示](docs/页面图集.md#企业目标从公司拆到个人) · [OA 系统选型](#开源-oa-系统选型) · [Java 和 Vue 审批示例](examples/oa-approval/) · [完整功能清单](docs/功能清单.md) · [PC 和 H5 页面图集](docs/页面图集.md) · [技术栈](#技术栈与运行环境) · [授权与交付](docs/交付与授权.md) · [微信咨询](#微信咨询)
 
 ## 企业部署后怎样使用
 
@@ -34,6 +34,10 @@
 - 通过审批的采购申请可以**转 ERP 采购订单**，报销申请可以**进入财务结算、实付和对账**。
 
 PC 与移动 H5 的具体入口见[协同办公功能清单](docs/功能清单.md#经营目标与组织协作)和[差旅报销页面演示](docs/页面图集.md#差旅报销与财务结算)。
+
+### Java 和 Vue 审批示例
+
+这个独立示例可以在本地运行，体验提交申请、查看待审批记录、通过或驳回。Java 提供审批接口，Vue 3 和 TypeScript 实现操作页面，示例数据保存在内存中。企信通正式产品的源码按商业授权交付。[查看示例代码和启动步骤](examples/oa-approval/)
 
 ## PC 与 H5 概览
 
@@ -91,7 +95,7 @@ PC 与 H5 共用同一套后端接口。企业可部署到自己的服务器，�
 
 ### English overview
 
-Qixintong (企信通) is a self-hosted enterprise management system based on RuoYi-Vue-Pro. It connects office automation (OA) and approval workflows with CRM, ERP purchasing and sales, warehouse management (WMS), MES production, HRM payroll, and financial accounting. The backend uses Java 25 and Spring Boot. The PC web client uses TypeScript and Vue 3. The mobile web client (H5) uses uni-app with Vue 3 and TypeScript. This public repository contains product documentation and screenshots. Source code is licensed commercially.
+Qixintong (企信通) is a self-hosted enterprise management system based on RuoYi-Vue-Pro. It connects office automation (OA) and approval workflows with CRM, ERP purchasing and sales, warehouse management (WMS), MES production, HRM payroll, and financial accounting. The backend uses Java 25 and Spring Boot. The PC web client uses TypeScript and Vue 3. The mobile web client (H5) uses uni-app with Vue 3 and TypeScript. This repository contains product documentation, screenshots, and a [standalone approval example](examples/oa-approval/) in Java, Vue 3, and TypeScript. The product source code is licensed commercially.
 
 ## 为什么收费
 
@@ -117,7 +121,7 @@ Qixintong (企信通) is a self-hosted enterprise management system based on Ruo
 
 ### 版本与交付
 
-本仓库公开产品文档和页面图集。首发交付版本与空库安装流程仍在准备，现阶段可咨询及预约演示。下单前确认目标流程、运行环境、可交付版本和验收方式。
+本仓库公开产品文档、页面图集和独立审批示例。首发交付版本与空库安装流程仍在准备，现阶段可咨询及预约演示。下单前确认目标流程、运行环境、可交付版本和验收方式。
 
 ### 微信咨询
 
