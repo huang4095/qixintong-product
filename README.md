@@ -2,13 +2,13 @@
 
 **支持私有部署和二次开发的企业管理系统，一次性源码商业授权 ¥4,980。**
 
-企信通基于芋道 RuoYi-Vue-Pro 二次开发，提供 PC 管理端与移动 H5，覆盖 CRM 客户与合同、ERP 进销存、WMS 仓储、MES 生产、OA 协同办公、HRM 人事薪资和 FMS 财务核算。
+企信通基于开源芋道 RuoYi-Vue-Pro 二次开发，提供 PC 管理端与移动 H5，覆盖 CRM 客户与合同、ERP 进销存、WMS 仓储、MES 生产、OA 协同办公、HRM 人事薪资和 FMS 财务核算。
 
 销售从 CRM 合同创建订单，仓库出库后形成应收，财务登记到账并核销，再回查会计凭证。回款结果回写合同与分期，三个岗位都能追到同一笔业务。
 
 适合希望把日常管理搬进同一套系统的企业。商贸企业可串起销售、采购、库存与财务，生产企业可管理工单、批次和成品入库。企业完成部署并配置业务角色后，管理者和员工可通过 PC 或手机浏览器办理已启用的业务。企业开发团队、独立开发者和学习者也可在授权范围内复用或修改源码。
 
-[企业目标演示](docs/页面图集.md#企业目标从公司拆到个人) · [完整功能清单](docs/功能清单.md) · [PC 和 H5 页面图集](docs/页面图集.md) · [技术栈](#技术栈与运行环境) · [授权与交付](docs/交付与授权.md) · [微信咨询](#微信咨询)
+[企业目标演示](docs/页面图集.md#企业目标从公司拆到个人) · [OA 系统选型](#开源-oa-系统选型) · [完整功能清单](docs/功能清单.md) · [PC 和 H5 页面图集](docs/页面图集.md) · [技术栈](#技术栈与运行环境) · [授权与交付](docs/交付与授权.md) · [微信咨询](#微信咨询)
 
 ## 企业部署后怎样使用
 
@@ -22,6 +22,18 @@
 例如，公司可以把年度经营目标下达到销售部，再拆成个人月目标。具备权限的人员把个人目标生成工作计划并派发任务，员工从 H5「我的任务」提交结果，发布人逐人验收，负责人继续提交目标成果供上级确认。[从目标拆解到个人执行的页面演示](docs/页面图集.md#企业目标从公司拆到个人)
 
 [![PC 经营目标树](docs/assets/screenshots/pc-goal-hierarchy.webp)](docs/assets/screenshots/pc-goal-hierarchy.webp)
+
+## 开源 OA 系统选型
+
+在评估开源 OA 系统时，有开发团队的企业可以从芋道公开源码中的组织、角色权限和 BPM 工作流开始，按自己的审批规则自建。[芋道 RuoYi-Vue-Pro 开源仓库](https://github.com/YunaiV/ruoyi-vue-pro)
+
+企信通在这个开源底座上提供可私有部署的企业 OA 协同办公系统。企信通自有源码按商业授权交付。部署并配置业务角色后，企业可以使用以下流程。
+
+- 员工可以发起**采购、出差和报销审批**并查看进度，审批人按角色办理。
+- **个人月目标或周目标**可生成工作计划，由负责人派发任务。员工在 PC 或移动 H5 提交反馈，发布人逐人验收。
+- 通过审批的采购申请可以**转 ERP 采购订单**，报销申请可以**进入财务结算、实付和对账**。
+
+PC 与移动 H5 的具体入口见[协同办公功能清单](docs/功能清单.md#经营目标与组织协作)和[差旅报销页面演示](docs/页面图集.md#差旅报销与财务结算)。
 
 ## PC 与 H5 概览
 
@@ -79,7 +91,7 @@ PC 与 H5 共用同一套后端接口。企业可部署到自己的服务器，�
 
 ### English overview
 
-Qixintong (企信通) is a self-hosted enterprise management system based on RuoYi-Vue-Pro. It connects CRM, ERP purchasing and sales, warehouse management (WMS), MES production, OA workflows, HRM payroll, and financial accounting. The backend uses Java 25 and Spring Boot. The PC web client uses TypeScript and Vue 3. The mobile web client (H5) uses uni-app with Vue 3 and TypeScript. This public repository contains product documentation and screenshots. Source code is licensed commercially.
+Qixintong (企信通) is a self-hosted enterprise management system based on RuoYi-Vue-Pro. It connects office automation (OA) and approval workflows with CRM, ERP purchasing and sales, warehouse management (WMS), MES production, HRM payroll, and financial accounting. The backend uses Java 25 and Spring Boot. The PC web client uses TypeScript and Vue 3. The mobile web client (H5) uses uni-app with Vue 3 and TypeScript. This public repository contains product documentation and screenshots. Source code is licensed commercially.
 
 ## 为什么收费
 
