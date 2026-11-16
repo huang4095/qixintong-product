@@ -1,12 +1,14 @@
-# 企信通企业业务系统
+# 企信通 Qixintong 企业管理系统
 
-**可部署在企业自有环境的管理系统，提供二次开发源码。一次性商业授权 ¥4,980。**
+**支持私有部署和二次开发的企业管理系统，一次性源码商业授权 ¥4,980。**
 
-企信通基于芋道 RuoYi-Vue-Pro 二次开发，提供后端、PC 管理端与移动 H5。销售从 CRM 合同创建订单，仓库出库后形成应收，财务登记到账并核销，再回查会计凭证。回款结果回写合同与分期，三个岗位都能追到同一笔业务。
+企信通基于芋道 RuoYi-Vue-Pro 二次开发，提供 PC 管理端与移动 H5，覆盖 CRM 客户与合同、ERP 进销存、WMS 仓储、MES 生产、OA 协同办公、HRM 人事薪资和 FMS 财务核算。
+
+销售从 CRM 合同创建订单，仓库出库后形成应收，财务登记到账并核销，再回查会计凭证。回款结果回写合同与分期，三个岗位都能追到同一笔业务。
 
 适合希望把日常管理搬进同一套系统的企业。商贸企业可串起销售、采购、库存与财务，生产企业可管理工单、批次和成品入库。企业完成部署并配置业务角色后，管理者和员工可通过 PC 或手机浏览器办理已启用的业务。企业开发团队、独立开发者和学习者也可在授权范围内复用或修改源码。
 
-[企业目标演示](docs/页面图集.md#企业目标从公司拆到个人) · [完整功能清单](docs/功能清单.md) · [PC 和 H5 页面图集](docs/页面图集.md) · [授权与交付](docs/交付与授权.md) · [微信咨询](#微信咨询)
+[企业目标演示](docs/页面图集.md#企业目标从公司拆到个人) · [完整功能清单](docs/功能清单.md) · [PC 和 H5 页面图集](docs/页面图集.md) · [技术栈](#技术栈与运行环境) · [授权与交付](docs/交付与授权.md) · [微信咨询](#微信咨询)
 
 ## 企业部署后怎样使用
 
@@ -64,6 +66,21 @@
 
 角色、模板、业务策略和开通条件见[功能清单](docs/功能清单.md)。截图展示各环节的实际界面，请从[页面图集](docs/页面图集.md)查看。
 
+## 技术栈与运行环境
+
+| 部分 | 开发语言 | 技术栈 |
+| --- | --- | --- |
+| 服务端 | Java 25 | Spring Boot、Spring Security、MyBatis-Plus、Flowable、Maven |
+| PC 管理端 | TypeScript | Vue 3、Vben Admin、Ant Design Vue、Vite |
+| 移动 H5 | TypeScript | Vue 3、uni-app、unibest、Vite |
+| 数据库与缓存 | SQL 初始化脚本 | MySQL 8、Redis |
+
+PC 与 H5 共用同一套后端接口。企业可部署到自己的服务器，配置组织、角色、审批流程和账套，再开通所需模块。具体依赖版本和部署步骤随交付版本提供。
+
+### English overview
+
+Qixintong (企信通) is a self-hosted enterprise management system based on RuoYi-Vue-Pro. It connects CRM, ERP purchasing and sales, warehouse management (WMS), MES production, OA workflows, HRM payroll, and financial accounting. The backend uses Java 25 and Spring Boot. The PC web client uses TypeScript and Vue 3. The mobile web client (H5) uses uni-app with Vue 3 and TypeScript. This public repository contains product documentation and screenshots. Source code is licensed commercially.
+
 ## 为什么收费
 
 只需要开源底座，或希望从头实现自己的一套流程，可以免费取得芋道公开源码，按其许可证自行开发。[访问芋道开源项目](https://github.com/YunaiV/ruoyi-vue-pro)
@@ -84,7 +101,7 @@
 | 第三方组件 | 依各自许可证使用和分发。原生 App、RTC、云推送及对应外部服务的可用平台、配置和交付内容单独确认。 |
 | 自有内容许可 | 协议约定授权范围。禁止未经授权公开上传、转售或转授权企信通自有源码及包含这些代码的二开源码。 |
 
-后端为 Java 25、Spring Boot、MySQL 8、Redis 与 Flowable。PC 使用 Vue 3、TypeScript 和 Vben Admin。移动 H5 使用 uni-app 和 unibest。源码通过授权约定的渠道交付。具体材料和验收流程见[交付与授权说明](docs/交付与授权.md)。
+源码通过授权约定的渠道交付。具体材料和验收流程见[交付与授权说明](docs/交付与授权.md)。
 
 ### 版本与交付
 
