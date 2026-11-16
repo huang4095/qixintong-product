@@ -21,9 +21,15 @@
 
 [![PC 经营目标树](docs/assets/screenshots/pc-goal-hierarchy.webp)](docs/assets/screenshots/pc-goal-hierarchy.webp)
 
-| 移动工作台 | 功能导航 | 库存余额 |
-| :---: | :---: | :---: |
-| [<img src="docs/assets/screenshots/h5-workbench.webp" width="180" alt="移动工作台">](docs/assets/screenshots/h5-workbench.webp) | [<img src="docs/assets/screenshots/h5-functions.webp" width="180" alt="移动功能导航">](docs/assets/screenshots/h5-functions.webp) | [<img src="docs/assets/screenshots/h5-stock-balance.webp" width="180" alt="移动库存余额">](docs/assets/screenshots/h5-stock-balance.webp) |
+## PC 与 H5 概览
+
+### PC 常用功能菜单
+
+[![PC 管理、业务、财务与平台常用入口](docs/assets/pc-function-menu.png)](docs/assets/pc-function-menu.png)
+
+### 移动端界面
+
+[![移动 H5 登录、工作台、功能、聊天消息和个人中心](docs/assets/h5-interface-overview.png)](docs/assets/h5-interface-overview.png)
 
 ## 企信通做了哪些开发
 
