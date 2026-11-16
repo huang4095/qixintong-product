@@ -6,7 +6,7 @@
 
 适合希望把日常管理搬进同一套系统的企业。商贸企业可串起销售、采购、库存与财务，生产企业可管理工单、批次和成品入库。企业完成部署并配置业务角色后，管理者和员工可通过 PC 或手机浏览器办理已启用的业务。企业开发团队、独立开发者和学习者也可在授权范围内复用或修改源码。
 
-[企业目标演示](docs/页面图集.md#企业目标从公司拆到个人) · [完整功能清单](docs/功能清单.md) · [PC 和 H5 页面图集](docs/页面图集.md) · [授权与交付](docs/交付与授权.md) · [预约演示](https://github.com/huang4095/qixintong-product/issues/new)
+[企业目标演示](docs/页面图集.md#企业目标从公司拆到个人) · [完整功能清单](docs/功能清单.md) · [PC 和 H5 页面图集](docs/页面图集.md) · [授权与交付](docs/交付与授权.md) · [微信咨询](#微信咨询)
 
 ## 企业部署后怎样使用
 
@@ -80,8 +80,14 @@
 
 后端为 Java 25、Spring Boot、MySQL 8、Redis 与 Flowable。PC 使用 Vue 3、TypeScript 和 Vben Admin。移动 H5 使用 uni-app 和 unibest。源码通过授权约定的渠道交付。具体材料和验收流程见[交付与授权说明](docs/交付与授权.md)。
 
-### 版本与咨询
+### 版本与交付
 
 本仓库公开产品文档和页面图集。首发交付版本与空库安装流程仍在准备，现阶段可咨询及预约演示。下单前确认目标流程、运行环境、可交付版本和验收方式。
 
-可通过 [GitHub Issues](https://github.com/huang4095/qixintong-product/issues/new) 咨询演示、功能和交付范围。请勿在公开讨论中填写手机号、采购信息或部署凭据。
+### 微信咨询
+
+微信扫码联系，预约产品演示，咨询企业部署和源码授权。
+
+[<img src="docs/assets/wechat-contact.png" width="240" alt="企信通微信咨询二维码">](docs/assets/wechat-contact.png)
+
+也可通过 [GitHub Issues](https://github.com/huang4095/qixintong-product/issues/new) 提交公开问题。
