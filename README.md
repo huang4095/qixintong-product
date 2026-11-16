@@ -2,7 +2,7 @@
 
 **面向中小企业的企业管理系统，支持私有化部署和二次开发。源码商业授权 ¥4,980，一次性付费。**
 
-企信通基于开源芋道 RuoYi-Vue-Pro 二次开发，提供 PC 管理端与移动 H5。企业信息管理覆盖 CRM 客户与合同、ERP 进销存、WMS 仓储、MES 生产、OA 协同办公、HRM 人事薪资和 FMS 财务核算。
+企信通基于开源芋道 RuoYi-Vue-Pro 二次开发，提供 PC 管理端与移动 H5。企业信息管理覆盖 CRM 客户与合同、ERP 进销存、WMS 仓储、MES 生产、OA 协同办公、企业即时通讯（IM）、HRM 人事薪资和 FMS 财务核算。
 
 销售从 CRM 合同创建订单，仓库出库后形成应收，财务登记到账并核销，再回查会计凭证。回款结果回写合同与分期，三个岗位都能追到同一笔业务。
 
@@ -15,6 +15,7 @@
 | 业务需求 | 企业部署后怎么用 |
 | --- | --- |
 | [OA 办公系统与审批工作流](#开源-oa-系统选型) | 员工从 PC 或手机发起采购、出差和报销申请，查看进度。审批人从待办办理。 |
+| [企业即时通讯（IM）](#移动端界面) | 员工在 PC 和移动 H5 使用企业通讯录、私聊和群聊，并查看站内消息和系统通知。 |
 | [企业目标管理](docs/页面图集.md#企业目标从公司拆到个人) | 管理者把公司目标逐级拆到部门和个人，再从个人目标生成计划、派发任务并验收。 |
 | [ERP 进销存管理](docs/页面图集.md#采购与仓储) | 采购申请审批后可转订单。仓管办理收发货、库存盘点和调拨，按批次追查库存和原单。 |
 | [业财一体化与财务管理](docs/页面图集.md#差旅报销与财务结算) | 销售出库形成应收，收款核销后回写合同。费用报销审批后，财务可按账套办理结算、实付和对账。 |
@@ -97,7 +98,7 @@ PC 与 H5 共用同一套后端接口。企业可部署到自己的服务器，�
 
 ### English overview
 
-Qixintong (企信通) is a self-hosted enterprise management system based on RuoYi-Vue-Pro. It connects office automation (OA) and approval workflows with CRM, ERP purchasing and sales, warehouse management (WMS), MES production, HRM payroll, and financial accounting. The backend uses Java 25 and Spring Boot. The PC web client uses TypeScript and Vue 3. The mobile web client (H5) uses uni-app with Vue 3 and TypeScript. This repository contains product documentation, screenshots, and a [standalone approval example](examples/oa-approval/) in Java, Vue 3, and TypeScript. The product source code is licensed commercially.
+Qixintong (企信通) is a self-hosted enterprise management system based on RuoYi-Vue-Pro. It connects office automation (OA) and approval workflows with CRM, ERP purchasing and sales, warehouse management (WMS), MES production, HRM payroll, and financial accounting. Enterprise instant messaging (IM) includes direct and group chat, an employee directory, and system notifications. The backend uses Java 25 and Spring Boot. The PC web client uses TypeScript and Vue 3. The mobile web client (H5) uses uni-app with Vue 3 and TypeScript. This repository contains product documentation, screenshots, and a [standalone approval example](examples/oa-approval/) in Java, Vue 3, and TypeScript. The product source code is licensed commercially.
 
 ## 为什么收费
 
