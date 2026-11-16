@@ -6,7 +6,13 @@
 
 适合需要搭建企业内部系统的技术团队、为客户做定制项目的独立开发者，以及想学习企业系统如何处理权限、库存和财务的开发者。
 
-[完整功能清单](docs/功能清单.md) · [PC 和 H5 页面演示](docs/页面图集.md) · [授权与交付](docs/交付与授权.md) · [预约演示](https://github.com/huang4095/qixintong-product/issues/new)
+[完整功能清单](docs/功能清单.md) · [PC 和 H5 页面图集](docs/页面图集.md) · [授权与交付](docs/交付与授权.md) · [预约演示](https://github.com/huang4095/qixintong-product/issues/new)
+
+[![PC 经营目标树](docs/assets/screenshots/pc-goal-hierarchy.webp)](docs/assets/screenshots/pc-goal-hierarchy.webp)
+
+| 移动工作台 | 功能导航 | 库存余额 |
+| :---: | :---: | :---: |
+| [<img src="docs/assets/screenshots/h5-workbench.webp" width="180" alt="移动工作台">](docs/assets/screenshots/h5-workbench.webp) | [<img src="docs/assets/screenshots/h5-functions.webp" width="180" alt="移动功能导航">](docs/assets/screenshots/h5-functions.webp) | [<img src="docs/assets/screenshots/h5-stock-balance.webp" width="180" alt="移动库存余额">](docs/assets/screenshots/h5-stock-balance.webp) |
 
 ## 企信通做了哪些开发
 
@@ -36,7 +42,7 @@
 | 报销到银行对账 | 出差、日常或项目报销 → 审批 → 费用确认与过账 → 实付 → 清账凭证 → 银行流水对账 |
 | 施工到移交 | 项目模板 → 选队与授权 → 施工签到、日报和节点照片 → 节点完工与移交。领退料和费用可回查相应业务单据。 |
 
-角色、模板、业务策略和开通条件见[功能清单](docs/功能清单.md)。按业务环节查看[页面演示清单](docs/页面图集.md)。
+角色、模板、业务策略和开通条件见[功能清单](docs/功能清单.md)。截图展示各环节的实际界面，请从[页面图集](docs/页面图集.md)查看。
 
 ## 为什么收费
 
@@ -62,6 +68,6 @@
 
 ### 版本与咨询
 
-本仓库公开产品文档。首发交付版本与空库安装流程仍在准备，现阶段可咨询及预约演示。下单前确认目标流程、运行环境、可交付版本和验收方式。
+本仓库公开产品文档和页面图集。首发交付版本与空库安装流程仍在准备，现阶段可咨询及预约演示。下单前确认目标流程、运行环境、可交付版本和验收方式。
 
 可通过 [GitHub Issues](https://github.com/huang4095/qixintong-product/issues/new) 咨询演示、功能和交付范围。请勿在公开讨论中填写手机号、采购信息或部署凭据。
